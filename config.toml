@@ -1,0 +1,10 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "My New Hugo Site"
+
+theme = "basic2020"
+
+[markup]
+  [markup.highlight]
+    codeFences = true
+    noClasses = false

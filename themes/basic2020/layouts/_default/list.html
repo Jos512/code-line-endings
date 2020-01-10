@@ -1,0 +1,10 @@
+{{ partial "header.html" . }}
+
+<h1>{{ .Title }}</h1>
+<h4>Just another list page</h4>
+
+{{ range .Pages }}
+    {{ .Render "summary" }}
+{{ end }}
+
+{{ partial "footer.html" . }}
